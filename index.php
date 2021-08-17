@@ -1,6 +1,6 @@
 <?php
 
-if(0) {
+if(1) {
 http_response_code(500);
 }
 else {
