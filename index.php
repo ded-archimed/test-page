@@ -1,11 +1,11 @@
 <?php
 
-if(0) {
-http_response_code(500);
-}
-else {
-http_response_code(422);
-}
+// if(0) {
+// http_response_code(500);
+// }
+// else {
+// http_response_code(422);
+// }
 
 
 // http_response_code(200);
@@ -16,5 +16,5 @@ http_response_code(422);
 // header('Content-Type: application/json');
 // echo json_encode('4c9ec15e52b2c804ab41659dfc9cdfc4');
 
-// header("HTTP/1.1 301 Moved Permanently");
-// header("Location: https://test-page-error.herokuapp.com/");
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: https://test-page-error.herokuapp.com/");
